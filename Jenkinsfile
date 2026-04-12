@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                echo 'Git + Jenkins OK 2 3 4✔'
+                echo 'Git + Jenkins OK 2 3 4 5✔'
             }
         }
     }
