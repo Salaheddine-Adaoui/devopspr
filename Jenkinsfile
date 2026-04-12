@@ -5,7 +5,7 @@ pipeline {
         stage('Clone') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/TON_USER/project-devops.git'
+                url: 'https://github.com/Salaheddine-Adaoui/devopspr.git'
             }
         }
 
