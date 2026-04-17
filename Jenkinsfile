@@ -12,7 +12,7 @@ pipeline {
         }
         stage('backend build'){
             steps{
-                sh 'cd backend && .mvn clean package'
+                sh 'cd backend && mvn clean package'
             }
         }
         stage('Build Docker Images') {
